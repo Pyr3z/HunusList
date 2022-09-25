@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "com.kooapps.kore": {
+      "version": "https://kooapps.dev/upm/kore.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8ad6c857fd10a52f51de527336fce333eda05ce4"
+    },
+    "com.kooapps.toast": {
+      "version": "https://kooapps.dev/upm/toast.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.kooapps.kore": "2.2.0"
+      },
+      "hash": "09e52236f2dcc463658f61f76438d2bcc9455489"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.7",
       "depth": 1,

@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.kooapps.kore": "https://kooapps.dev/upm/kore.git",
+    "com.kooapps.toast": "https://kooapps.dev/upm/toast.git",
     "com.unity.collab-proxy": "1.17.2",
     "com.unity.feature.2d": "1.0.0",
     "com.unity.feature.mobile": "1.0.0",
