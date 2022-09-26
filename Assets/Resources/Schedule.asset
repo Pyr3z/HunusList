@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Schedule
   m_EditorClassIdentifier: 
   m_HideFlags: 0
-  m_IsRequiredOnLaunch: 0
+  m_IsRequiredOnLaunch: 1
   m_IsReplaceable: 0
   m_OnAfterInitialized:
     m_PersistentCalls:
       m_Calls: []
     m_IsEnabled: 0
-    m_Context: {fileID: 0}
-    m_RunInGlobalContext: 0
+    m_Context: {fileID: 11400000}
+    m_RunInGlobalContext: 1
     m_ScaledTime: 1
     m_DelaySeconds: -1
