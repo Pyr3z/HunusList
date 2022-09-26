@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c5d6626d40ef74096b807a4a55f57a, type: 3}
+  m_Name: Schedule
+  m_EditorClassIdentifier: 
+  m_HideFlags: 0
+  m_IsRequiredOnLaunch: 0
+  m_IsReplaceable: 0
+  m_OnAfterInitialized:
+    m_PersistentCalls:
+      m_Calls: []
+    m_IsEnabled: 0
+    m_Context: {fileID: 0}
+    m_RunInGlobalContext: 0
+    m_ScaledTime: 1
+    m_DelaySeconds: -1
