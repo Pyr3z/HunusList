@@ -1,6 +1,11 @@
-﻿using Kooapps.Kore;
+﻿using JetBrains.Annotations;
+
+using Kooapps.Kore;
 
 using UnityEngine;
+
+using DateTime = System.DateTime;
+using TimeSpan = System.TimeSpan;
 
 
 [AssetPath("Resources/Schedule.asset")]
@@ -19,9 +24,14 @@ public class Schedule : AssetSingleton<Schedule>
   }
 
 
-  public static void TaskNotification(TaskData task)
+  public static void TaskNotification([NotNull] TaskData task)
   {
+    // TODO handle resolution logic for user's chosen frequency + day condition parameters
 
+    if (task.Frequency == FrequencyCategory.Once)
+    {
+      s_Notifier.ScheduleNotification(task.Name, task.Details, DateTime.Now.AddMinutes(1), TimeSpan.Zero);
+    }
   }
 
 }

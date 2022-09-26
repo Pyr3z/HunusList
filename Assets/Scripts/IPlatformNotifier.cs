@@ -1,4 +1,7 @@
-﻿using DateTime = System.DateTime;
+﻿using JetBrains.Annotations;
+
+using DateTime = System.DateTime;
+using TimeSpan = System.TimeSpan;
 
 
 public interface IPlatformNotifier
@@ -6,6 +9,6 @@ public interface IPlatformNotifier
 
   void Initialize();
 
-  void ScheduleNotification(TaskData task, DateTime firetime);
+  void ScheduleNotification([NotNull] string name, [NotNull] string details, DateTime firetime, TimeSpan repeat);
 
 }
