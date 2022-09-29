@@ -33,15 +33,15 @@ public class AndroidPlatformNotifier : IPlatformNotifier
     }
   }
 
-  public void ScheduleNotification(string name, string details, DateTime firetime, TimeSpan repeat)
+  public void ScheduleNotification(string title, string details, DateTime firetime, TimeSpan repeat)
   {
     var notif = new AndroidNotification(
-      title:          name,
-      text:           details,
-      fireTime:       firetime
+      title:    title,
+      text:     details,
+      fireTime: firetime
     );
 
-    if (repeat != TimeSpan.Zero)
+    if (repeat > TimeSpan.Zero)
     {
       // need to check this beforehand since the backend does some funky null-ish patterns
       notif.RepeatInterval = repeat;

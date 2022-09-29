@@ -9,6 +9,6 @@ public interface IPlatformNotifier
 
   void Initialize();
 
-  void ScheduleNotification([NotNull] string name, [NotNull] string details, DateTime firetime, TimeSpan repeat);
+  void ScheduleNotification([NotNull] string title, [NotNull] string details, DateTime firetime, TimeSpan repeat);
 
 }

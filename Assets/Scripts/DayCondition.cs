@@ -14,9 +14,10 @@ public enum DayCondition
   Saturday  = (1 << 5),
   Sunday    = (1 << 6),
 
-  AnyDay    = Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday,
   Weekday   = Monday | Tuesday | Wednesday | Thursday | Friday,
   Weekend   = Saturday | Sunday,
+
+  AnyDay    = Weekday | Weekend,
 
   Morning   = (1 << 7),
   Afternoon = (1 << 8),
