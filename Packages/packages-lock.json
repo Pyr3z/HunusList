@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "8ad6c857fd10a52f51de527336fce333eda05ce4"
+      "hash": "0c73bca152dd1b8d47b9fbba836877016740f132"
     },
     "com.kooapps.toast": {
       "version": "https://kooapps.dev/upm/toast.git",
