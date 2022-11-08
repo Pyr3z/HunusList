@@ -20,6 +20,8 @@ public class Schedule : AssetSingleton<Schedule>
     #if UNITY_ANDROID
     // only Android is planned for now... but you never know ~(￣▽￣)~*
     s_Notifier = new AndroidPlatformNotifier();
+    #else
+    return;
     #endif
 
     s_Notifier.Initialize();

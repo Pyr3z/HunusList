@@ -6,6 +6,9 @@ using UnityEngine;
 public class UI : KomponentSingleton<UI>
 {
 
-
+  public static void OpenView()
+  {
+    // TODO fef
+  }
 
 }
