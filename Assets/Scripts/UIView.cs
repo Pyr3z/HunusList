@@ -1,13 +1,7 @@
-using Kooapps.Kore;
-using UnityEngine;
+// A View is a showable thing that replaces the current UI layer.
 
 
-public class UIView : Komponent
+public class UIView : UIThing
 {
-
-  public void Show()
-  {
-    // TODO
-  }
-
+  // TODO
 }
